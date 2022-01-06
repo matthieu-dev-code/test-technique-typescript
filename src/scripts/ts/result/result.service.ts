@@ -6,15 +6,15 @@ export class ResultService {
   constructor() { }
 
   public addResult(newResult:ResultModel) {
-    
+
   }
 
   public seenResult(idResult:number) {
-    
+
   }
 
   public unseenResult(idResult:number) {
-    
+
   }
 
   public getAllResult() : Array<ResultModel> {
