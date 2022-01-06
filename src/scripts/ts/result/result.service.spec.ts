@@ -1,4 +1,3 @@
-import { TestBed, fakeAsync } from '@angular/core/testing';
 import { ResultService } from './result.service';
 import { ResultModel } from './model/result.model';
 
@@ -8,7 +7,7 @@ describe('ResultService', () => {
   let resultService: ResultService;
 
   it('should be created', () => {
-    resultService = TestBed.get(ResultService);
+    resultService = new ResultService();
     expect(resultService).toBeTruthy();
   });
 

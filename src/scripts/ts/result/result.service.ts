@@ -1,11 +1,6 @@
-import { Injectable } from '@angular/core';
 import { ResultModel } from './model/result.model';
 import { ResultEventModel } from './model/result-event.model';
-import { unusedValueExportToPlacateAjd } from '@angular/core/src/render3/interfaces/injector';
 
-@Injectable({
-  providedIn: 'root'
-})
 export class ResultService {
 
   constructor() { }
