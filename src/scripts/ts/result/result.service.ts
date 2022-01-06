@@ -18,19 +18,19 @@ export class ResultService {
   }
 
   public getAllResult() : Array<ResultModel> {
-    return null;
+    return [];
   }
 
   public getAllResultSeen() : Array<ResultModel> {
-    return null;
+    return [];
   }
 
   public getAllResultUnSeen() : Array<ResultModel> {
-    return null;
+    return [];
   }
 
   public numberOfEventSeen() : number
   {
-    return null;
+    return 0;
   }
 }
